@@ -8,6 +8,18 @@ function random() {
        } else {
           if (random == 3) {
             document.body.style.backgroundImage = "url('bgs/Ghost.jpg')";
+          } else {
+            if (random == 4) {
+              document.body.style.backgroundImage = "url('bgs/gold.jpeg')";
+            } else {
+              if (random == 5) {
+                document.body.style.backgroundImage = "url('bgs/mini.webp')";
+              } else {
+                if (random == 6) {
+                  document.body.style.backgroundImage = "url('bgs/shadow.jpg')";
+                }
+              }
+            }
           }
        }
     }  
