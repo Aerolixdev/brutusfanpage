@@ -2,8 +2,14 @@ body {
     background-size: cover;
 }
 
+@font-face {
+    font-family: epicfont;
+    src: url(/font.otf);
+  }
+
 * {
     text-align: center;
+    font-family: epicfont;
 }
 
 .button {
