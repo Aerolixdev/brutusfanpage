@@ -1,6 +1,5 @@
 body {
     background-size: cover;
-    cursor: url(/brutusface.cur)), auto;	
 }
 
 @font-face {
@@ -25,8 +24,8 @@ h1 {
     border-radius: 12px;
     background-color: white;
     color: black;
-    cursor: pointer;
     font-size: x-large;
+    cursor: url(/brutusface.cur)), auto;	
 }
 
 .button:hover {
